@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#333641">
+    <title>NAPP</title>
+   
+    <link rel="stylesheet" href="css/login.css">
+    
+    
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+          <div class="div button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+      
+          <div class="social-icons">
+            <img src="images/google.png" alt="" />
+            <img src="images/facebook.png" alt="" />
+            <img src="images/twitter.png" alt="" />
+          </div>
+      
+          <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="text" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button class="submit-btn" type="submit"><a href="quizmain.html" style="color: white; text-decoration:none ;">Log In</a></button>
+            
+          </form>
+      
+          <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="email" class="input-field" placeholder="Email" required>
+            <input type="text" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+            <button class="submit-btn" type="submit"><a href="quizmain.html" style="color: white; text-decoration:none ;">Register</a></button>
+          </form>
+         
+        </div>
+        
+      </div>
+      
+      <script src="js/login.js"></script>
+
+</body>
+</html>
