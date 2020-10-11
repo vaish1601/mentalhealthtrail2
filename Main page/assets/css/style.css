@@ -1659,6 +1659,7 @@ section {
 .member .img-fluid {
   width: 100%;
   margin: 0;
+  height:200px
 }
 
 .btn .btn-primary {
