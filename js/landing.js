@@ -1,4 +1,4 @@
-var content = 'If life is so bleh, and meh then maybe use our resources smile. . .';
+var content = 'Don’t let life discourage you, everyone who got where he is had to begin where he was. . .';
 
 var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 
